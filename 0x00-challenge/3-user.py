@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
- User Model
+ User Model class
 """
 import hashlib
 import uuid
@@ -9,8 +9,8 @@ import uuid
 class User():
     """
     User class:
-    - id: public string unique (uuid)
-    - password: private string hash in MD5
+    - id: public string unique
+    - password: private string hashed in MD5
     """
 
     __password = None
@@ -18,14 +18,14 @@ class User():
     def __init__(self):
         """
         Initialize a new user:
-        - assigned an unique `id`
+        - assigned an unique id
         """
         self.id = str(uuid.uuid4())
 
     @property
     def password(self):
         """
-        Password getter
+        Password getter func
         """
         return self.__password
 

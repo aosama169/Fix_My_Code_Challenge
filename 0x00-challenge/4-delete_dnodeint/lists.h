@@ -6,10 +6,11 @@
 /**
  * struct dlistint_s - doubly linked list
  * @n: integer
- * @prev: points to prev node
- * @next: points to next node
+ * @prev: points to the prev node
+ * @next: points to the next node
  *
  * Description: doubly linked list node structure
+ * for Holberton project
  */
 typedef struct dlistint_s
 {

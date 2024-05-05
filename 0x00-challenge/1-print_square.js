@@ -1,6 +1,6 @@
 #!/usr/bin/node
 /*
-    Print a square with character 
+    Print a square with the character
 */
 
 

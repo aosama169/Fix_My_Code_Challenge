@@ -6,13 +6,13 @@
 
 result = []
 ARGV.each do |arg|
-    # skip if not integer
+    # skip if not int
     next if arg !~ /^-?[0-9]+$/
 
-    # convert to integer
+    # convert to int
     i_arg = arg.to_i
     
-    # insert result at the right position
+    # insert result at the right positions
     is_inserted = false
     i = 0
     l = result.size
